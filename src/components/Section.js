@@ -8,6 +8,7 @@ function Section() {
                 <h1>Model S</h1>
                 <p>Order Online for Touchless Delivery</p>
             </ItemText>
+            <Buttons>
             <ButtonGroup>
                 <LeftButton>
                     Custom Order
@@ -17,6 +18,7 @@ function Section() {
                 </RightButton>
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg"/>
+            </Buttons>
     </Wrap>
   )
 }
@@ -70,3 +72,5 @@ const Wrap = styled.div`
     margin-top: 20px;
     height: 40px;
  `
+ 
+ const Buttons = styled.div``
